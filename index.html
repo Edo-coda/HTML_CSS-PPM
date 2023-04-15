@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detroit Free Press</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+
+
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg fixed-top nav-costume">
+    <div class="container-fluid" >
+
+        <div id="myNav" class="overlay">
+            <div class="overlay-img">
+                <img src="immagini/logo.png" alt="logo"  width="190" height="35">
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="input-form">
+                <input type="text" class="form-costume me-2" placeholder="What do you want to find?">
+                <img src="immagini/lente.png" alt="lente" width="22" height="22">
+            </div>
+            <div class="overlay-content">
+                <div class="dropdown">
+                    <button class="dropbtn">News</button>
+                    <div class="dropdown-content">
+                        <a href="#">News 1</a>
+                        <a href="#">News 2</a>
+                        <a href="#">News 3</a>
+                        <a href="#">News 4</a>
+                        <a href="#">News 5</a>
+                        <a href="#">News 6</a>
+                        <a href="#">News 7</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Sports </button>
+                    <div class="dropdown-content">
+                        <a href="#">Sports 1</a>
+                        <a href="#">Sports 2</a>
+                        <a href="#">Sports 3</a>
+                        <a href="#">Sports 4</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Autos </button>
+                    <div class="dropdown-content">
+                        <a href="#">Autos 1</a>
+                        <a href="#">Autos 2</a>
+                        <a href="#">Autos 3</a>
+                        <a href="#">Autos 4</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Business</button>
+                    <div class="dropdown-content">
+                        <a href="#">Business 1</a>
+                        <a href="#">Business 2</a>
+                        <a href="#">Business 3</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Entertainment</button>
+                    <div class="dropdown-content">
+                        <a href="#">Entertainment 1</a>
+                        <a href="#">Entertainment 2</a>
+                        <a href="#">Entertainment 3</a>
+                    </div>
+                </div>
+                <a href="#">Opinion</a>
+                <a href="#">USA TODAY</a>
+                <a href="#">Obituaries</a>
+                <a href="#">eNewspaper</a>
+                <a href="#">Life</a>
+                <a href="#">Legals</a>
+            </div>
+            <div class="overlay-content2">
+                <b> MOST RECENT STORIES</b>
+                <div class="ov2-text">
+                    <a href="">
+                        <h4> tigers </h4>
+                        <p>Meadows heads to IL for anxiety; Baddoo called up from Toledo</p>
+                    </a>
+                </div>
+                <div class="ov2-text">
+                    <a href="">
+                        <h4> oakland </h4>
+                        <p>Police: 2 juvenile girls sought in Great Lakes Crossing chaos</p>
+                    </a>
+                </div>
+                <div class="ov2-text">
+                    <a href="">
+                        <h4> wolverines </h4>
+                        <p>Michigan getting former North Carolina star Caleb Love via transfer</p>
+                    </a>
+                </div>
+                <div class="ov2-text">
+                    <a href="">
+                        <h4> business </h4>
+                        <p>Mortgage giant UWM to hire 500 new workers — and no experience is necessary</p>
+                    </a>
+                </div>
+                <div class="ov2-text">
+                    <a href="">
+                        <h4> dining </h4>
+                        <p>Brussels sprouts replace potatoes in healthful version of popular snack</p>
+                    </a>
+                </div>
+                <div class="ov2-text">
+                    <a href="">
+                        <h4> michigan </h4>
+                        <p>Detroit gang leader believed he was ‘invincible’</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hamburger" onclick="openNav()">
+            <a href="#"><span></span></a>
+            <a href="#"><span></span></a>
+            <a href="#"><span></span></a>
+        </div>
+
+        <a class="navbar-brand" href="#">
+            <img src="immagini/logo.png" alt="logo" width="140" height="20">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Autos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Business</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Entertainment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Opinion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">USA TODAY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Obituaries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">eNewspaper</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="#">Legals</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<! -- Grid First -->
+<div class="container" id="cc">
+        <div class="row">
+            <div class="col-lg-5 col-md-8 col-12">
+                <div class="container_first">
+                    <a href=""> <img class="toggle_img" src="https://via.placeholder.com/430x300"> </a>
+                    <div class="text_block">
+                        <div class="panel_link">
+                            <a class="h4" href=""> When will Flint residents get their shares of record legal settlement? </a>
+                        </div>
+                        <p> About 45,000 Flint claimants should begin receiving notices related to those claims starting in late April or May and over the next several weeks. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-12 col-md-3_mediaF">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="container_first">
+                            <a href=""> <img class="toggle_img2" src="https://via.placeholder.com/250X190"> </a>
+                            <div class="text_block_min panel_link2">
+                                <a class="h6" href=""> Michigan law should require prisoner ID program, lawmakers say </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="container_first">
+                            <a href=""> <img class="toggle_img3" src="https://via.placeholder.com/250X190"> </a>
+                            <div class="text_block_min panel_link3">
+                                <a class="h6" href=""> Popular Detroit restaurants to serve at Comerica Park: See the list </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-4_mediaF">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="container_second">
+                            <a class="h6" href=""> Making Marrocco's home a prison: No internet, no parties, no golf </a>
+                            <p> <span class=""> Macomb </span> | 3 hours ago </p>
+                            <br>
+                            <a class="h6" href=""> Michigan homeowners struggle to access solar energy | Opinion </a>
+                            <p> <span class=""> COMMENTARY </span> | 3 hours ago </p>
+                            <br>
+                            <a class="h6" href=""> When will Flint residents get their shares of record legal settlement? </a>
+                            <p> <span class=""> Flint Water Crisis </span> | 3 hours ago </p>
+                            <br>
+                            <a class="h6" href=""> Digital divide fight persists as Duggan mulls shifting $40M to other areas </a>
+                            <p> <span class=""> Detroit </span> | 3 hours ago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid second -->
+
+<div class="container-fluid container2_costume" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4_mediaS">
+                <div class="rectangle"></div>
+                <div class="distance"> <h4 class="fw-bold"> More Stories </h4></div>
+                <div class="container2_first">
+                    <div class="row ">
+                        <div class="col-md-8 col-8 ">
+                            <div class="container2_second ">
+                                <div class="panel_link4">
+                                    <a class="h6" href=""> Spike says he's out at Detroit's 'Mojo in the Morning' radio show </a>
+                                </div>
+                                <p> <span class=""> TV + RADIO </span> </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img4" src="https://via.placeholder.com/80X90"> </a>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-md-8 col-8">
+                            <div class="container2_second ">
+                                <div class="panel_link5">
+                                    <a class="h6" href=""> Hidden island on Lake Superior has 114-acre property for sale </a>
+                                </div>
+                                <p> <span class=""> Michigan </span> </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img5" src="https://via.placeholder.com/80X90"> </a>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-md-8 col-8">
+                            <div class="container2_second ">
+                                <div class="panel_link6">
+                                    <a class="h6" href=""> GM hits buyout target, no involuntary layoffs expected for now </a>
+                                </div>
+                                <p> <span class=""> GENERAL MOTORS </span> </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img6" src="https://via.placeholder.com/80X90"> </a>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-md-8 col-8">
+                            <div class="container2_second ">
+                                <div class="panel_link7">
+                                    <a class="h6" href=""> Why Ford is ditching AM radio in new gas-powered, electric vehicles </a>
+                                </div>
+                                <p> <span class=""> Autos </span> </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img7" src="https://via.placeholder.com/80X90"> </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-12 ">
+                <div class="container2_s col-md-8_mediaS">
+                    <div class="row row_costume">
+                        <div class="col-md-8 col-8 ">
+                           <div class="container2_second">
+                               <div class="panel_link8">
+                                   <a class="h6" href=""> Why Red Wings see 'positive on big picture' after playoff </a>
+                               </div>
+                                <p> <span class=""> Sport </span> | 3 hours ago </p>
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img8" src="https://via.placeholder.com/180X110"> </a>
+                        </div>
+                    </div>
+
+                    <div class="row row_costume">
+                        <div class="col-md-8 col-8">
+                            <div class="container2_second">
+                                <div class="panel_link9">
+                                    <a class="h6" href=""> The list of seasonal allergies that cause problems for Michiganders </a>
+                                </div>
+                                <p> <span class=""> Wayne </span> | 3 hours ago </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img9" src="https://via.placeholder.com/180X110"> </a>
+                        </div>
+                    </div>
+
+                    <div class="row row_costume">
+                        <div class="col-md-8 col-8">
+                            <div class="container2_second">
+                                <div class="panel_link10">
+                                    <a class="h6" href=""> Cowgirls country bar will replace Ginopolis' in downtown Brighton </a>
+                                </div>
+                                <p> <span class=""> Brighton </span> | 3 hours ago </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img10" src="https://via.placeholder.com/180X110"> </a>
+                        </div>
+                    </div>
+
+                    <div class="row row_costume">
+                        <div class="col-md-8 col-8">
+                            <div class="container2_second">
+                                <div class="panel_link11">
+                                    <a class="h6" href=""> SCOTUS's Clarence Thomas took GOP donor's luxury gifts for decades: report </a>
+                                </div>
+                                <p> <span class=""> Health </span> | 3 hours ago </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href=""> <img class="toggle_img11" src="https://via.placeholder.com/180X110"> </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rectangle"></div>
+                <h4 class="fw-bold distance"> Sports </h4>
+                <div class="container2_s2">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <div class="container_c">
+                                <a href=""> <img class="toggle_img12" src="https://via.placeholder.com/530x300"> </a>
+                                <div class="text_block_second">
+                                    <div class="panel_link12">
+                                        <a class="h3" href=""> Michigan basketball lands Seton Hall transfer Tray Jackson </a>
+                                    </div>
+                                    <p> <span class=""> Wolverines </span> | 6 hours ago </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-4">
+                            <div class="container c_costume">
+                                <a href=""> <img class="toggle_img13" src="https://via.placeholder.com/205x130"> </a>
+                                <div class="text_block_third panel_link13">
+                                    <a class="h6" href=""> Arkansas LB Drew Sanders has pre-draft visit scheduled with Lions </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-4">
+                            <div class="container c_costume">
+                                <a href=""> <img class="toggle_img14" src="https://via.placeholder.com/205X130"> </a>
+                                <div class="text_block_third panel_link14">
+                                    <a class="h6" href=""> Why Red Wings see 'positive on big picture' after playoff elimination </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-4">
+                            <div class="container c_costume">
+                                <a href=""> <img class="toggle_img15" src="https://via.placeholder.com/205x130"> </a>
+                                <div class="text_block_third panel_link15">
+                                    <a class="h6" href=""> Tigers Opening Day marked huge returns for several vital members of rebuild </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row_center">
+                        <div class="col-auto">
+                            <a href=""> Show more <span> Sports > </span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rectangle"></div>
+                <h4 class="fw-bold distance"> Most Popular </h4>
+                <div class="container2_s3">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <div class="container_c">
+                                <a href=""> <img class="toggle_img16" src="https://via.placeholder.com/530x300"> </a>
+                                <div class="text_block_second">
+                                    <div class="panel_link16">
+                                        <a class="h3" href=""> Michigan teen and her dog to compete in a dog show </a>
+                                    </div>
+                                    <p> <span class=""> Michigan </span> | 8 hours ago </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <div class="container c_costume">
+                                <a href=""> <img class="toggle_img17" src="https://via.placeholder.com/305x180"> </a>
+                                <div class="text_block_third panel_link17">
+                                    <a class="h6" href=""> Feds:Detroit gangster's reign of terror ends with life sentence </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <div class="container c_costume">
+                                <a href=""> <img class="toggle_img18" src="https://via.placeholder.com/305x180"> </a>
+                                <div class="text_block_third panel_link18">
+                                    <a class="h6" href=""> Monica Gayle and Huel Perkins' spouses talk about their retirement </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row_center">
+                        <div class="col-auto">
+                            <a href=""> Show more <span> Most Popular > </span></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+<! -- Footer -->
+
+<div class="container-fluid footer_costume" >
+        <ul id="foot">
+            <li><a href="#">Help - </a></li>
+            <li><a href="#">Term of Service - </a></li>
+            <li><a href="#">Subscription Terms & Condition - </a></li>
+            <li><a href="#">Your California Privacy Rights/Privacy Policy - </a></li>
+            <li><a href="#">Privacy Policy - </a></li>
+            <li><a href="#">Site Map - </a></li>
+            <li><a href="#">Accessibility - </a></li>
+            <li><a href="#">Our Ethical Principles - </a></li>
+            <li><a class="fw-bold"> Manage Cookies</a></li>
+        </ul>
+        <div class="container_footer_img">
+            <a> <img class="img-footer" src="immagini/fb.png"> </a>
+            <a> <img class="img-footer" src="immagini/tw.png"> </a>
+            <a> <img class="img-footer" src="immagini/insta.png"> </a>
+            <a> <img class="img-footer" src="immagini/pint.png"> </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            document.getElementsByClassName("nav-costume").item(0).style.borderBottom="hidden";
+            document.body.style.overflowY = "hidden";
+            document.body.innerHTML
+            document.getElementById("cc").style.opacity= "0.3";
+            document.getElementById("cc").style.filter= "blur(6px)";
+            document.getElementById("navbarSupportedContent").style.opacity= "0.3";
+            document.getElementById("navbarSupportedContent").style.filter= "blur(6px)";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            document.getElementsByClassName("nav-costume").item(0).style.borderBottom="1px solid grey";
+            document.body.style.overflowY = "scroll";
+            document.getElementById("cc").style.opacity= "1";
+            document.getElementById("navbarSupportedContent").style.opacity= "1";
+            document.getElementById("cc").style.filter= "blur(0px)";
+            document.getElementById("navbarSupportedContent").style.filter= "blur(0px)";
+        }
+
+
+    </script>
+
+</body>
+</html>
